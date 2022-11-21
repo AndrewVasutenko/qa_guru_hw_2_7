@@ -39,6 +39,5 @@ def download_picture():
 def select_state_and_city(state, city):
     state_ = browser.element("#react-select-3-input")
     state_.type(state).press_enter()
-
     city_ = browser.element("#react-select-4-input")
     city_.type(city).press_enter()

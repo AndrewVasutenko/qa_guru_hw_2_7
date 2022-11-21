@@ -3,7 +3,6 @@ from selene.support.shared import browser
 
 table_result = browser.element(".table-responsive")
 
-
 def fill_fullname(first_name, last_name):
     browser.element("#firstName").type(first_name)
     browser.element("#lastName").type(last_name)
